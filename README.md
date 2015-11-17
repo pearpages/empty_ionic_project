@@ -1,5 +1,7 @@
 # ionic_helloworld
 
+[Ionic Framework](http://ionicframework.com/)
+
 + Si es vol executar s'ha d'instal·lar el Ionic CLI i executar
 $ionic serve
 
