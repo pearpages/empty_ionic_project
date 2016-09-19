@@ -1,3 +1,5 @@
+# Installation
+
 ```bash
 sudo npm install -g ionic cordova
 ```
@@ -17,3 +19,8 @@ ionic start <project-name> blank
 ```bash
 ionic serve
 ```
+
+# Info
+
+We are usin the eggly src code.
+
