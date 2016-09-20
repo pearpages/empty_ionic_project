@@ -22,5 +22,5 @@ ionic serve
 
 # Info
 
-We are usin the eggly src code.
+We are usin the eggly src code. [eggly](https://github.com/eggheadio/egghead-angularjs-from-scratch-getting-started).
 
