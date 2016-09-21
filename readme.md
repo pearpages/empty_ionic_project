@@ -40,3 +40,27 @@ ionic build ios
 # s -> server log output
 ionic emulate ios -lcs
 ```
+
+## ionic-plugins
+
+```bash
+# list all the ionic plugins
+ionic plugin
+```
+
+```bash
+# inappbrowser
+ionic plugin add cordova-plugin-inappbrowser
+```
+
+```javascript
+// in a controller
+
+bookmarksListCtrl.goToUrl = function goToUrl(bookmark) {
+    windows.open(bookmark.url, '_system');
+}
+```
+
+```html
+<a ng-click="bookmarkListCtrl.goToUrl(bookmark)">URL</a>
+```
