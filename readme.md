@@ -1,4 +1,4 @@
-# Installation
+## Installation
 
 ```bash
 sudo npm install -g ionic cordova
@@ -20,7 +20,23 @@ ionic start <project-name> blank
 ionic serve
 ```
 
-# Info
+## Info
 
 We are usin the eggly src code. [eggly](https://github.com/eggheadio/egghead-angularjs-from-scratch-getting-started).
 
+## Build, Emulate and Debug
+
+```bash
+ionic platform add ios
+```
+
+```bash
+ionic build ios
+```
+
+```bash
+# l -> live reload
+# c -> console log
+# s -> server log output
+ionic emulate ios -lcs
+```
