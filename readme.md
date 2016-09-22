@@ -57,7 +57,7 @@ ionic plugin add cordova-plugin-inappbrowser
 // in a controller
 
 bookmarksListCtrl.goToUrl = function goToUrl(bookmark) {
-    windows.open(bookmark.url, '_system');
+    window.open(bookmark.url, '_system');
 }
 ```
 
