@@ -64,3 +64,6 @@ bookmarksListCtrl.goToUrl = function goToUrl(bookmark) {
 ```html
 <a ng-click="bookmarkListCtrl.goToUrl(bookmark)">URL</a>
 ```
+
+## Ionic Components
+
