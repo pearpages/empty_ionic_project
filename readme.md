@@ -106,3 +106,16 @@ bookmarksListCtrl.goToUrl = function goToUrl(bookmark) {
     </ion-content>
 </ion-view>
 ```
+
+## Ionic Components
+
+- **ion-side-menus** : A container element for side menu(s) and the main visible content.
+- **ion-side-menu-content** : A container for the main visible content, sibling to one or more ionSideMenu directives.
+- **ion-side-menu** : A container for a side menu, sibling to an ionSideMenuContent directive.
+- **ion-nav-view** : Used to render templates in your application. Each template is part of a state. States are usually mapped to a url, and are defined programatically using angular-ui-router (see their docs for reference).
+- **ion-view** : A container for view content and any navigational and header bar information. Used as a child of ionNavView.
+- **ion-nav-bar** : If we have an ionNavView directive, we can also create an ionNavBar, which will create a topbar that updates as the application state changes.
+- **ion-nav-buttons** : Use nav buttons to set the buttons on your ionNavBar from within an ionView.
+- **ion-content** : Provides an easy to use content area that can be configured to use Ionic’s custom Scroll View, or the built in overflow scrolling of the browser.
+- **ion-list** : The List is a widely used interface element in almost any mobile app, and can include content ranging from basic text all the way to buttons, toggles, icons, and thumbnails.
+- **ion-item** : Used to create items inside of an ionList.
